@@ -5,7 +5,7 @@ Jungle::Jogador::Jogador::Jogador(const sf::Vector2f pos, const sf::Vector2f tam
   corpo(sf::RectangleShape(tam))
   {
     corpo.setPosition(pos);
-    corpo.setFillColor(sf::Color::Green);
+    corpo.setFillColor(sf::Color::Green); 
     inicializa();
   }
 
